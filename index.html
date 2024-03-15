@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script src="javascript.js"></script>
 <body>
     <div class="container">
         <div class="traffic-light">
             <div class="panel">
-                <div class="light light-off">
+                <div id="red" class="light light-off">
 
                 </div>
-                <div class=" light light-off">
+                <div id="yellow" class=" light light-off">
 
                 </div>
-                <div class="light light-off">
+                <div id="green" class="light light-off">
 
                 </div>
             </div>
         </div>
 
-        <button>CLick me!</button>
+        <button onclick="changeTrafficLight()">CLick me!</button>
     </div>
+
 </body>
 
 </html>

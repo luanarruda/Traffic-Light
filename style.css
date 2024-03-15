@@ -13,6 +13,11 @@ button {
 
 }
 
+button:hover{
+    background-color: #3f3f3f;
+    box-shadow: #171717;
+}
+
 .container {
     background-color: blanchedalmond;
     padding: 40px;
@@ -57,7 +62,7 @@ button {
     background-color: #ff0000;
 }
 
-.yellow-çight {
+.yellow-light {
     background-color: #fff000;
 }
 
